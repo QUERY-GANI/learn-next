@@ -7,5 +7,9 @@ export default function exampleSSR({ eg }) {
 }
 
 export function getServerSideProps() {
-    return { props: { eg: "komponen ini akan di buat setiap user request atau hit ke path \"/detail/ssr\"" } }
+    return {
+        props: {
+            eg: "props ini akan di jalankan setiap client request ke path \"/detail/ssr\"\ndan komponen ini akan di generate ulang"
+        }
+    }
 }
