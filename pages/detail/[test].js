@@ -1,8 +1,13 @@
+// ssg example - static site generation
+
 export default function dynamicRoutes({ id }) {
     return (
         <>
-            <small>ID: { id }</small>
-            <p>Ini dynamic route bwang</p>
+            <p><small>ID: { id }</small><br/>Ini dynamic route bwang</p>
+
+            <script>
+                console.log(`hello world from csr - client side rendering`);
+            </script>
         </>
     )
 }
