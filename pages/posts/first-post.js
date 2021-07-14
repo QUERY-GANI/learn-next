@@ -10,7 +10,7 @@ export default function FirstPost() {
         <title>First post</title>
       </Head>
       <div className={styles.center}>
-        <h1>First Post</h1>
+        <h1 className="test">First Post</h1>
         <Image src="/profile.jpg" alt="profile" width={200} height={200} layout="responsive"/>
         <h2>
           <Link href="/">
